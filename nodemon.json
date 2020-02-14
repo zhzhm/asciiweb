@@ -1,0 +1,17 @@
+{
+    "restartable": "rs",
+    "ignore": [
+        ".git",
+        "node_modules",
+        "umlimg"
+    ],
+    "verbose": true,
+    "execMap": {
+        "js": "node"
+    },
+    "env": {
+        "NODE_ENV": "development",
+        "DEBUG": "*,-nodemon:*,-nodemon,-knex:pool"
+    },
+    "ext": "js json"
+}
